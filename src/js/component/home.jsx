@@ -1,9 +1,18 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-regular-svg-icons";
-
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Counter from "./Counter.jsx"
+import ManualCounter from "./ManualCounter.jsx"
 
 //create your first component
+const Home = () => {
+ 
+  return (
+    <>
+     <ManualCounter />
+
+      <Counter/>
+
+    </>
+  );
+};
+
+export default Home;

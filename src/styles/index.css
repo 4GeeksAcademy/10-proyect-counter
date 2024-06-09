@@ -1,17 +1,62 @@
 
-.bigCounter{
+.manualCounter{
+    margin-top: 30px;
     text-align: center;
-    background:  #101010;;
-}
-
-
-.bigCounter div{
+    background:  rgb(135, 181, 241);
+   
+   
+} 
+.manualCounter div{
     display: inline-block;
     font-size: 60px;
     line-height: 60px;
-    background-color: #101010;
+    background-color: rgb(135, 181, 241);
     color:#fff;
     padding: 10px;
     margin: 3px;
+   
+}
+
+.buttonManual{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 5px;
+  background-color: rgb(135, 181, 241);
+}
+
+
+.automaticCounter{
+    margin-top: 100px;
+    text-align: center;
+    background:  rgb(160, 226, 151);
+   
+   
+} 
+.automaticCounter div{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background-color: rgb(160, 226, 151);
+    color:#fff;
+    padding: 10px;
+    margin: 3px;
+   
+}
+
+.buttonReset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color:  rgb(160, 226, 151);
 
 }
